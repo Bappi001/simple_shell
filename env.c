@@ -2,7 +2,7 @@
 
 /**
  * _myenv - current environment is printed
- * @info: Structure containing potential arguments. Used to maintain
+ * @info: Structure which contains potential arguments. Used to maintain
  *          constant function prototype.
  * Return: Always 0
  */
@@ -35,9 +35,9 @@ char *_getenv(info_t *info, const char *name)
 }
 
 /**
- * _mysetenv - Initialize a new environment variable,
+ * _mysetenv - new environment intialized in a variable,
  *             or modify an existing one
- * @info: Structure containing potential arguments. Used to maintain
+ * @info: Structure which contains potential arguments. Used to maintain
  *        constant function prototype.
  *  Return: Always 0
  */
@@ -54,7 +54,7 @@ int _mysetenv(info_t *info)
 }
 
 /**
- * _myunsetenv - Remove an environment variable
+ * _myunsetenv - environment variable is removed
  * @info: Structure containing potential arguments. Used to maintain
  *        constant function prototype.
  *  Return: Always 0
